@@ -1,0 +1,136 @@
+header{
+    background-color: rgb(20, 70, 18);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    }
+
+#links{
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    border: 1px solid white; 
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+#links:hover{
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:yellowgreen;
+}
+
+body {
+  background-color: rgb(20, 70, 18);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+main {
+  display: flex;
+  /* border: 1px solid black;  */
+  width: 890px;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+#logotipo{
+    width: 90px;
+    height: 85px;
+}
+
+#imagem-login {
+  border-radius: 30px;
+}
+#titulologin {
+  text-align: center;
+  color: #005521;
+  font-size: 30px;
+}
+
+#fontes{
+color: rgb(0, 78, 52);
+
+}
+#formulario {
+/*border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.check {
+  display: flex;
+  font-size: 15px;
+}
+
+.texto {
+  width: 100%;
+  border-style: inherit;
+  background-color: rgba(4, 104, 104, 0.301);
+  border-radius: 8px;
+  height: 25px;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.check {
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+#btnenviar {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  text-align: center;
+  display: flex;
+  color: black;
+  background-color: rgb(6, 173, 0);
+  border-radius: 15px;
+  border-style: none;
+  padding: 10px 80px;
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+#btnenviar:hover{
+     cursor: pointer;
+    /* background-color: yellowgreen); */
+    color: white;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.158);    
+}
+
+#titulo-login {
+  text-align: center;
+}
+.login-alternativo {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(11, 109, 201);
+}
+
+footer{
+    padding-top: 300px;
+    color: white;
+    text-align: center;
+}
